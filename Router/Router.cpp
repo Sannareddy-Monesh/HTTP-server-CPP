@@ -8,7 +8,6 @@
 
 using std::cout;
 
-
 Router::Router() {}
 
 void Router::add(const std::string& path, std::function<void(Request*, Response*)> handler) {

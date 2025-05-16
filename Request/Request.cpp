@@ -16,15 +16,11 @@ void Request::parse(char* buffer, ssize_t bytes){
 
     std::string method, path, protocol;
 
-    // Parse Request Line 1
+    // Parse Request
     if (std::getline(stream, line)) {
         std::istringstream lineStream(line);
         lineStream >> method >> path >> protocol;
     }
-
-    // std::cout << std::endl;
-    // std::cout << "Parsing Begin: \n";
-    // std::cout << method << " " << path << " " << protocol << std::endl;
 
     this->setMethod(method);
     this->setPath(path);
