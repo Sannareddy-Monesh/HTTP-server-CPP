@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobConnect - Find Your Dream Job</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f2f5;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        nav {
+            background: #0056b3;
+            padding: 0.5rem 2rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .job-card {
+            background: white;
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+        .job-card:hover {
+            transform: translateY(-5px);
+        }
+        .job-title {
+            font-size: 1.5rem;
+            color: #007bff;
+        }
+        .job-company {
+            font-size: 1rem;
+            margin: 0.5rem 0;
+            color: #555;
+        }
+        .job-location {
+            font-size: 0.9rem;
+            color: #777;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>JobConnect</h1>
+        <p>Find your dream job today!</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Jobs</a>
+        <a href="#">Post a Job</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div class="job-card">
+            <div class="job-title">Frontend Developer</div>
+            <div class="job-company">TechSolutions Inc.</div>
+            <div class="job-location">Remote | Full-time</div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-title">Backend Engineer</div>
+            <div class="job-company">Innovatech Corp.</div>
+            <div class="job-location">Bangalore, India | Hybrid</div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-title">Data Analyst</div>
+            <div class="job-company">Insight Analytics</div>
+            <div class="job-location">Mumbai, India | Full-time</div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 JobConnect. All rights reserved.
+    </footer>
+
+</body>
+</html>
